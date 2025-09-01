@@ -15,4 +15,7 @@ RAM = cpu + memory + 기본 연산(단위 시간에 수행되는 연산)
 
  일반적으로 알고리즘 수행시간 = 최악의 입력에 대한 기본 연산 횟수
 
- <img width="194" height="140" alt="image" src="https://github.com/user-attachments/assets/7c1a5dcf-db5e-42a6-8e3f-5624996e34c9" />
+ <img width="194" height="140" alt="image" src="https://github.com/user-attachments/assets/7c1a5dcf-db5e-42a6-8e3f-5624996e34c9" />  T(n) = 4n + 1
+ <img width="272" height="181" alt="image" src="https://github.com/user-attachments/assets/e537b09d-8364-4f28-9538-5d3289467a5a" /> T(n) = 3/2n^2 + 3/2n + 1
+
+
