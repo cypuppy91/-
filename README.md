@@ -16,6 +16,7 @@ RAM = cpu + memory + 기본 연산(단위 시간에 수행되는 연산)
 
  일반적으로 알고리즘 수행시간 = 최악의 입력에 대한 기본 연산 횟수
 수행시간 T(n)
+
  <img width="194" height="140" alt="image" src="https://github.com/user-attachments/assets/7c1a5dcf-db5e-42a6-8e3f-5624996e34c9" />  T(n) = 4n + 1
  
  <img width="272" height="181" alt="image" src="https://github.com/user-attachments/assets/e537b09d-8364-4f28-9538-5d3289467a5a" /> T(n) = 3/2n^2 + 3/2n + 1
@@ -46,4 +47,5 @@ T3(n) = 3/2n^2 + 3/2n + 1 -> T3(n) = O(n^2)
 <img width="163" height="144" alt="image" src="https://github.com/user-attachments/assets/c867b780-c8f4-411a-8384-92f55273719c" /> 
 while문의 경우 
 <img width="358" height="305" alt="image" src="https://github.com/user-attachments/assets/a0c405b6-750b-4810-95fb-9a26393c3c4b" />
+
 
