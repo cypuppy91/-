@@ -54,9 +54,13 @@ while문의 경우
 C 언어의 배열은 읽기와 쓰기가 상수 시간(O(1)) 안에 가능하다. 주소를 할당 시키고 거기에 배열 값을 넣
 파이썬의 리스트는 주소를 가르키는 역할 A[0] -> 0 을 가리킬때 A[0] = A[0] + 1 을 할 경우 A[0]은 새로 1을 가리킨다
 A.append(6) : 맨 뒤에 6을 삽입
+
 A.pop() : 맨뒤의 값을 지우고 리턴
+
 A.insert(1,10) : A[1]에 10을 삽입
+
 A.remove(value) : A에서 value 제거
+
 A.index(value),A.count(value)
 
 리스트 : 용량 자동 조절 가능 (dynamic array)
@@ -65,3 +69,4 @@ A.index(value),A.count(value)
 코드 실행하면 56, 88이 나옴
 
 결국 리스트의 append도 자동으로 해주지만 c와 똑같이 작동해서 시간은 O(1)
+
