@@ -49,3 +49,15 @@ while문의 경우
 <img width="358" height="305" alt="image" src="https://github.com/user-attachments/assets/a0c405b6-750b-4810-95fb-9a26393c3c4b" />
 
 
+# 배열과 리스트
+가장 기본적인 순차적인 자료구조
+C 언어의 배열은 읽기와 쓰기가 상수 시간(O(1)) 안에 가능하다. 주소를 할당 시키고 거기에 배열 값을 넣
+파이썬의 리스트는 주소를 가르키는 역할 A[0] -> 0 을 가리킬때 A[0] = A[0] + 1 을 할 경우 A[0]은 새로 1을 가리킨다
+A.append(6) : 맨 뒤에 6을 삽입
+A.pop() : 맨뒤의 값을 지우고 리턴
+A.insert(1,10) : A[1]에 10을 삽입
+A.remove(value) : A에서 value 제거
+A.index(value),A.count(value)
+
+리스트 : 용량 자동 조절 가능 (dynamic array)
+배열 : 자동 조절 X, 함수로 메모리를 새로 만들어준 다음 대입 해야 
