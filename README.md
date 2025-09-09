@@ -95,3 +95,5 @@ A.index(value),A.count(value)
 top(맨위값 리턴), len(개수)
 <img width="650" height="566" alt="image" src="https://github.com/user-attachments/assets/1413a10e-4a28-4b09-abac-4592ed7cadfd" />
 
+예 1) 괄호 맞추기
+
