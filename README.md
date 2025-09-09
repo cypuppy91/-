@@ -70,3 +70,21 @@ A.index(value),A.count(value)
 
 결국 리스트의 append도 자동으로 해주지만 c와 똑같이 작동해서 시간은 O(1)
 
+# 순차적 자료구조
+
+1. 배열, 리스트
+    - index로 임의의 원소를 접근
+    - 연산자 []
+    - 삽입(append, insert)
+    - 삭제(pop,remove)
+
+2. stack, queue, dequeue
+    - 제한된 접근(삽입, 삭제)만 허용
+    - stack : LIFO(Last In First Out)
+    - queue : FIFO(First In First Out)
+    - dequeue : stack + queue
+
+3. linked list(연결 리스트)
+    - 각각의 값은 자기 자신의 값과 다음 값의 주소를 가지고 있다. 마지막은 None
+    - 인덱스로 접근 X
+    - 오래 걸리는게 단점
