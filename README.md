@@ -88,3 +88,8 @@ A.index(value),A.count(value)
     - 각각의 값은 자기 자신의 값과 다음 값의 주소를 가지고 있다. 마지막은 None
     - 인덱스로 접근 X
     - 오래 걸리는게 단점
+
+# STACK
+삽입 : push 
+삭제 : pop
+top(맨위값 리턴), len(개수)
