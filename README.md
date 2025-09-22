@@ -117,6 +117,9 @@ infix -> postfix
  
 <img width="464" height="682" alt="image" src="https://github.com/user-attachments/assets/8be9de75-6313-4825-bbd2-8377c7e26a90" /><img width="346" height="443" alt="image" src="https://github.com/user-attachments/assets/56ad90b8-b9c7-40cb-a27b-c2b95979ac40" />
 
-<img width="85" height="43" alt="image" src="https://github.com/user-attachments/assets/583c7ed0-38bf-417b-9fec-4b8a3540e272" />
+<img width="85" height="43" alt="image" src="https://github.com/user-attachments/assets/583c7ed0-38bf-417b-9fec-4b8a3540e272" /><img width="60" height="40" alt="image" src="https://github.com/user-attachments/assets/9a01927b-7c9d-4415-b7b0-36d2f86524ae" /><img width="53" height="46" alt="image" src="https://github.com/user-attachments/assets/b80b39ab-906b-4e12-a889-0d5106a97f6f" />
+
+
+
 
 
