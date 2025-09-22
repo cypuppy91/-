@@ -98,4 +98,25 @@ top(맨위값 리턴), len(개수)
 
 예 1) 괄호 맞추기
 
+스택 예 2) 계산기 코드 작성
+
+2+3*5 -> infix 수식`
+infix -> postfix 수식으로 바꾸기
+2 3 5 * +
+1. 괄호 치기 (2+(3*5))
+2. 연산자의 오른쪽 괄호 다음으로 연산자 이동
+3. 괄호 지우기
+
+3 * (2 + 5) * 4
+-> ((3 * (2+5)) * 4)
+3 2 5 + * 4 *
+
+infix -> postfix
+리스트 : outstack
+스택 : opstack
+ 
+<img width="464" height="682" alt="image" src="https://github.com/user-attachments/assets/8be9de75-6313-4825-bbd2-8377c7e26a90" /><img width="346" height="443" alt="image" src="https://github.com/user-attachments/assets/56ad90b8-b9c7-40cb-a27b-c2b95979ac40" />
+
+<img width="85" height="43" alt="image" src="https://github.com/user-attachments/assets/583c7ed0-38bf-417b-9fec-4b8a3540e272" />
+
 
