@@ -120,6 +120,19 @@ infix -> postfix
 <img width="85" height="43" alt="image" src="https://github.com/user-attachments/assets/583c7ed0-38bf-417b-9fec-4b8a3540e272" /><img width="60" height="40" alt="image" src="https://github.com/user-attachments/assets/9a01927b-7c9d-4415-b7b0-36d2f86524ae" /><img width="53" height="46" alt="image" src="https://github.com/user-attachments/assets/b80b39ab-906b-4e12-a889-0d5106a97f6f" />
 
 
+# 큐(queue)
 
+큐 : FIFO (First-In-First_out) 규칙의 순차적 자료구조
+삽입 : enqueue
+삭제 : dequeue : 양쪽 끝으로 나가고 들어갈수있음
+
+
+# 연결리스트(Linked List)
+
+연결리스트 : key 값과 link값 존재(속도가 list보다 빠름)
+
+한방향 vs 양방향
+한방향 : 키와 링크
+양방향 : 키와 링크 2
 
 
