@@ -135,4 +135,15 @@ infix -> postfix
 한방향 : 키와 링크
 양방향 : 키와 링크 2
 
+삽입 연산
+pushFront(앞쪽에 생성 삽입) : O(1)
+pushBack(뒤쪽에 생성 삽입) : O(n)
 
+삭제 연산
+popFront : O(1)
+popBack : O(n)
+
+한방향 연결리스트 추가 연산 : 탐색과 제너레이터
+연결리스트는 for문을써서 돌리기가 불가능
+그때 쓰는게 제너레이터 특히 yield v (return과 비슷) 중요
+iterator를 사용하면 편하게 한방향 연결리스트에서 for문 사용 가능
