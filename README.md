@@ -147,8 +147,99 @@ popBack : O(n)
 
 연결리스트는 for문을써서 돌리기가 불가능
 
+
+
 그때 쓰는게 제너레이터 특히 yield v (return과 비슷) 중요
 
 iterator를 사용하면 편하게 한방향 연결리스트에서 for문 사용 가능
 
+양방향 연결리스트(Doubly Linked List)
 
+양방향 연결리스트에서의 노드는 key값과 prev값, next값의 3개가 필요
+
+양방향 연결리스트를 끝과 끝을 연결한 연결리스트는 원형 양방향 연결리스트
+
+원형 양방향 연결리스트(양방향 연결리스트는 원형이라 가정)
+
+원형 양방향 연결리스트에서 첫 값을 알기위해 더미 노드 생성
+
+양방향 연결리스트
+class Node :
+ def __init__(self,key=None):
+   self.key = key
+   self.next = self
+   self.prev = self
+
+class Doubly LinkedList:
+ def __init__(self):
+  self.head = node()
+  self.size = 0
+ ...
+
+# 연결 리스트의 연산
+splic 연산
+  def splic(self,a,b,x):
+   조건 1 : a -> ... -> b
+   조건 2 : a와 b 사이에 head X
+   ap = a.prev, bn = b.next, xn = x.next
+   ap.next = bn
+   bn.prev = ap
+   x.next = a
+   a.prev = x
+   b.next = xn
+   xn.prev = b
+
+삽입연산
+insertAfter(x,key) => moveAfter(node(key) , x)
+insertBefore(x,key) => moveBefore(node(key),x)
+
+pushFront(key) => insertAfter(self.head,key)
+pushBack(key) => insertBefore(self.head,key)
+
+이동연산 
+moveAfter(self,a,x) => splic(a,a,x)
+moveBefore(a,x) => splic(a,a,x.prev)
+
+삭제 연산
+remove(x)
+if x == None or x == self.head:
+ return x
+x.prev.next = x.next
+x.next.prev = x.prev
+
+popFront
+popBack
+
+탐색 연산
+def search(self,key) :
+ v = self.head
+ while v.next != self.head:
+  if v,key == key:
+   return v
+   v = v.next
+ return None
+ 
+n개의 노드를 가지는 이중 연결 리스트의 시간 복잡도
+
+search(key) : O(n)
+이동연산 :  O(1)
+remove : O(n)
+
+# 해시 테이블 : Hash Table
+
+해시 테이블은 매우 빠른 평균 삽입, 삭제, 탐색 연산 제공
+삽입 삭제 탐색이 모두 O(n) 속도임
+
+# 해시 함수
+나머지 연산을 활용한 해시 함수를 
+Division head func
+f(k) = k%m
+f(k) = (k%p)%m
+
+충돌이 하나도 안나타나고 1-1 슬롯인 해시함수를 퍼펙트 해시함수라함
+unviersal h.f : x와 y의 키값이 같은 함수를 나타낼 확률이 1/m일때
+여러 함수가 있음
+
+좋은 해시 함수의 조건
+1. 작은 충돌 (계산이 느려짐)
+2. 계산이 빠름 (충돌이 많아짐)
