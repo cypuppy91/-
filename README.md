@@ -243,3 +243,34 @@ unviersal h.f : x와 y의 키값이 같은 함수를 나타낼 확률이 1/m일�
 좋은 해시 함수의 조건
 1. 작은 충돌 (계산이 느려짐)
 2. 계산이 빠름 (충돌이 많아짐)
+
+# 충돌회피방법(collision resolution method)
+
+- open addressing : 충돌이 날 경우 그 곳에는 값이 있지만 대신 그 근처에 값을 저장하는 방법
+  linear probing : 충돌이 일어나면 바로 밑에있는 곳으로 가서 처음 있는 빈칸에 값을 저장함
+  guadratic probing : 충돌이 일어나면 제곱 밑으로 감 1^2 -> 2^2 -> 3^3 
+  double hashing : hash 함수를 2개를 사용 f(key) + g(key) -> f(key) + 2g(key) -> '''
+
+  linear probing : set(key, value = None):
+   1. key값이 H에 있으면 value를 update
+   2. key값이 H에 없으면 (key,value) 값을 insert
+  remove(key)
+  search(key)
+
+ linear probing의 성능 평가는 cluster size의 크기에 영향을 받음
+ cluster size는 hash function, Collision Resolution(충돌 해결), load factor(밀도 지표)에 영향을 받
+   - load factor : 값의 개수/전체 해쉬테이플 크기
+해쉬 테이블의 절반 이상이 빈 슬롯으로 맞추면 평균적으로 상수시간에 가능 O(1) 그래서 엄청 빠름
+
+- chaining
+해쉬 테이블의 각 슬롯에 한방향 연결 리스트를 만들어 관리함
+
+# 트리구조
+순차적 자료구조 : 배열 인덱스 i = 0,1,''', 부모 자식의 관계
+연결리스트 링크 - 트리(Tree) , 이진트리(binary tree)
+
+<img width="1000" height="673" alt="image" src="https://github.com/user-attachments/assets/77c62d50-5258-4849-908e-7644a7d7787a" />
+
+
+
+
