@@ -272,5 +272,26 @@ unviersal h.f : x와 y의 키값이 같은 함수를 나타낼 확률이 1/m일�
 <img width="1000" height="673" alt="image" src="https://github.com/user-attachments/assets/77c62d50-5258-4849-908e-7644a7d7787a" />
 
 
+# 힙(heap) : 합 성질을 만족하는 이진트리
+
+<img width="410" height="317" alt="image" src="https://github.com/user-attachments/assets/7fec2c6d-11d5-4b40-97bf-c677235f022a" />
+H = [a,b,c,null,d,e,f]
+이 방식의 장점은 왼쪽 자식노드 오른쪽 자신노드가 어디 있는지 알 수 있다.
+heap 성질 : 모든 부모 노드의 key 값은 자식노드의 key 값보다 작지 않다.
+1. 모양을 만족해야하고
+2. 힙 성질을 만족해야한다
+
+make_heap : heapify_down
+heapify_down = O(log n)
+make_heap : O(nlog n) = O(n)
+
+insert 연산 : O(log n)
+
+find_max : O(1)
+
+delete_max : O(log n)
+
+search 함수는 존재하지 않음
+
 
 
