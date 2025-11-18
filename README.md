@@ -296,6 +296,22 @@ delete_max : O(log n)
 search 함수는 존재하지 않음
 
 
+# 이진트리(Binary Tree)
+
+ - 이진 트리 -> 배열, 리스트 (heap)
+ - 노드와 링크 직접
+
+이진트리 순회 : 이진트리 노드의 key 값을 빠짐없이 출력하는 방법
+preorder,inorder, postorder
+
+<img width="317" height="319" alt="image" src="https://github.com/user-attachments/assets/52a35349-af8e-4aa9-ab81-4754dcda1565" />
+
+preorder : F B A D C E G I H
+inorder : A B C D E F G I H
+postorder : A C E D B I H G F
+
+
+
 
 
 
