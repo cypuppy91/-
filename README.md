@@ -316,6 +316,8 @@ postorder : A C E D B I H G F
 각 노드의 왼쪽 subtree의 key 값은 노드의 key 값보다 작거나 같아야 하고 오른쪽의 subtree의 key 값은 노드의 key 값보다 크거나 같아야 한다
 
 search : # key값 노드가 있다면 해당 노드 return 없다면 노드가 삽입될 부모 노드 리턴
+search 의 경우 if문으로 이루어져있기 떄문에 상수시간 O(h)
+
 
 
 
