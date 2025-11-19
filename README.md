@@ -311,6 +311,13 @@ inorder : A B C D E F G I H
 postorder : A C E D B I H G F
 
 
+# 이진 탐색 트리(Binary Search Tree) : BST
+
+각 노드의 왼쪽 subtree의 key 값은 노드의 key 값보다 작거나 같아야 하고 오른쪽의 subtree의 key 값은 노드의 key 값보다 크거나 같아야 한다
+
+search : # key값 노드가 있다면 해당 노드 return 없다면 노드가 삽입될 부모 노드 리턴
+
+
 
 
 
