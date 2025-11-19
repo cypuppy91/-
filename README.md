@@ -318,8 +318,15 @@ postorder : A C E D B I H G F
 search : # key값 노드가 있다면 해당 노드 return 없다면 노드가 삽입될 부모 노드 리턴
 search 의 경우 if문으로 이루어져있기 떄문에 상수시간 O(h)
 
+삭제 연산 : deleteByMerging, deleteByCopying
 
+deleteByMerging(self,x) : #노드 x를 삭제 - 연결된 부분이 삭제되었을때 연결이 되어 있어야 함
+왼쪽 노드 전체를 옮기고 오른쪽 노드를 붙임
+만약 왼쪽 노드가 NONE인 경우 오른쪽 노드가 x(삭제될 노드)자리를 대체
 
+deleteByCopying
+왼쪽 노드에서 가장 큰 값을 x 값에 대체 그 가장 큰 값은 왼쪽 노트에 카피
+실행 시간은 O(h)
 
 
 
