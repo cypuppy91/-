@@ -328,5 +328,29 @@ deleteByCopying
 왼쪽 노드에서 가장 큰 값을 x 값에 대체 그 가장 큰 값은 왼쪽 노트에 카피
 실행 시간은 O(h)
 
+# 균형이진탐색트리(Balanced BST)
+
+<img width="735" height="267" alt="image" src="https://github.com/user-attachments/assets/fabb67df-2e30-48b9-bc1a-3e5687f750ae" />
+
+높이를 O(log(n))으로 제한하여 고안된 것이다
+
+종류로는 
+1. AVL 트리
+2. Red-Black 트리
+3. 2,3,4 트리
+4. splay 트리
+ 
+회전
+
+<img width="805" height="364" alt="image" src="https://github.com/user-attachments/assets/40047d8e-7bbd-4c3c-a563-4bc9dac62418" />
+
+<img width="818" height="297" alt="image" src="https://github.com/user-attachments/assets/08a86c72-0684-4f78-a7c0-2b5ffe1f61e0" />
+
+<img width="815" height="310" alt="image" src="https://github.com/user-attachments/assets/05cb77f1-db7c-4e9d-90ee-53480440500c" />
+
+
+
+
+
 
 
