@@ -355,9 +355,12 @@ deleteByCopying
    <img width="359" height="405" alt="image" src="https://github.com/user-attachments/assets/730809ad-b696-4c8b-b1f8-90ec97cd3033" />
 
    Nk = 높이가 h인 AVL 트리 중에서 최소 노드 개수
+   
    N0 = 1, N1 =2, N2 = 4, N3 = 7
+   
    Nh = N(h-1) + N(h-2) + 1
    
+
 
 
 
