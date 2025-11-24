@@ -349,6 +349,15 @@ deleteByCopying
 <img width="815" height="310" alt="image" src="https://github.com/user-attachments/assets/05cb77f1-db7c-4e9d-90ee-53480440500c" />
 
 
+1. AVL 트리
+   모든 노드에 대해서 노드의 왼쪽 부트리와 오른쪽 부 트리의 높이차가 1 이하인 BST
+
+   <img width="359" height="405" alt="image" src="https://github.com/user-attachments/assets/730809ad-b696-4c8b-b1f8-90ec97cd3033" />
+
+   Nk = 높이가 h인 AVL 트리 중에서 최소 노드 개수
+   N0 = 1, N1 =2, N2 = 4, N3 = 7
+   Nh = N(h-1) + N(h-2) + 1
+   
 
 
 
