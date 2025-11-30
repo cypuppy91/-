@@ -366,9 +366,20 @@ deleteByCopying
    - 삭제 연산 : O(log n) rotation
      알고리즘에 따라 삭제하고 회전 연산 진행
 
+2. Red-Black tree : 가장 유명하고 많이 사용되는 균형이진탐색트리
+
+<img width="506" height="256" alt="image" src="https://github.com/user-attachments/assets/461a690d-fd2f-40d2-a965-7319bf8ee329" />
 
 
+   특징 
+   - 노드는 red/black 색이 있어야한다
+   - 루트노드는 검은색이어야한다
+   - none은 검은색이어야한다
+   - red node는 두가지 자식 노드를 가지는데 모두 블랙이어야한다
+   - 각 노드에서 리프노드로 가는 경로에서의 블랙 노드의 수가 항상 같아야 한다
 
-
-
+   h(v) = v의 높이 
+   bh(vh) = v -> 리프노드들 (v를 제외)한 검은색 노드의 개수
+   사실 1: v의 서브트리의 내부 노드 개수 >= 2^bh(vh) -1
+   사실 2: black node 개수는 >= h/2
 
