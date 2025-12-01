@@ -382,4 +382,26 @@ deleteByCopying
    bh(vh) = v -> 리프노드들 (v를 제외)한 검은색 노드의 개수
    사실 1: v의 서브트리의 내부 노드 개수 >= 2^bh(vh) -1
    사실 2: black node 개수는 >= h/2
+   h = O(log2^n)
+
+   삽입 연산 
+   1. BST의 삽입연산을 호출해 새로운 노드(x) 삽입
+   2. x.color = red
+   3. 4가지 경우로 나눠 조정
+
+      <img width="975" height="810" alt="image" src="https://github.com/user-attachments/assets/4ba1fb65-925d-4c2a-9006-e1371b2751f9" />
+
+  insert = O(log(n))
+
+3. 2-3-4 트리 : 탐색트리(이진트리 x)
+
+   1. 자식노드 개수가 2,3,4 중 하나이다
+   2. 모든 리프 노드가 같은 레벨에 존재해야한다
+      
+   insert(key) : 4-노드면 split하면서 리프 노드까지 내려감
+   delete(x) : 루트 -> 리프, 2노드 -> 3노드
+   
+  red black 와 2-3-4 트리는 서로 바꿀수있다
+  
+  <img width="609" height="464" alt="image" src="https://github.com/user-attachments/assets/dba6cb01-a9e4-480a-a056-41dcc0a0f07f" />
 
